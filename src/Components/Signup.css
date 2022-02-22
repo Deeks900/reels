@@ -1,0 +1,25 @@
+.signUpWrapper{
+    display:flex;
+    justify-content: center;
+    
+}
+.signUpCard{
+    width: 32vw;
+    margin-top: 3%;
+}
+.reelProImage{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+@media only screen and (max-width:620px){
+    .signUpCard{
+        width: 60%;
+    }
+    .reelProImage{
+        width: 35%;
+    }
+}

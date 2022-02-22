@@ -1,0 +1,30 @@
+.loginWrapper{
+    display:flex;
+    justify-content: center;
+    
+}
+.loginCard{
+    width: 32vw;
+    margin-top: 10%;
+}
+.reelProImage{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.imgMobile{
+    margin-top: 6vh;
+    height: 590px;
+    width: 420px;
+    position: relative;
+}
+.car{
+    position: absolute;
+    top: 142px;
+    width: 268px;
+    height: 800px;
+    left: 324px;
+}

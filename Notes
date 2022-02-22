@@ -1,0 +1,17 @@
+npm install @mui/material @emotion/react @emotion/styled react-router-dom @material-ui/icons pure-react-carousel
+First form the componenet signUp.js using card of material Ui
+npm install @mui/styles for customizing styles of components imported from materail 
+--Differences Between Firebase and Firestore 
+--->Firebase is Google’s app development platform. It includes a vast range of products and features that allow developers to create apps fast without managing the infrastructure.
+Firestore is one of the two databases available at Firebase. It’s a new and improved version of the Real-Time Database, and its capabilities include real-time updates, offline synchronization, scalability, and multi-region deployment.
+
+--Compat - a familiar API surface which is fully compatible with the version 8 SDK, allowing you to upgrade to version 9 without changing all of your Firebase code at once. Compat libraries have little to no size or performance advantages over their version 8 counterparts.
+// v9 compat packages are API compatible with v8 code
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
+
+--The useEffect hook is built in a way that if we return a function within the method, this function will execute when the component gets disassociated. This is very useful because we can use it to remove unnecessary behavior or prevent memory leaking issues.
+--To upload any file or image on Firebase Cloud Storage you need to import the storageTo upload any file or image on Firebase Cloud Storage you need to import the storage and have to create a reference, A reference is a local pointer to some file on your bucket. This can either be a file which already exists, or one which does not exist yet. To create a reference, use the ref method
+---To upload a file directly from the users device, the putFile method on a reference accepts a string path to the file on the users device.
+---npm install uuid

@@ -1,0 +1,23 @@
+.feed-heading{
+    justify-content: space-around;
+    margin-top: 2px;
+    margin-left: 170px;
+    color: #fff;
+    animation: flicker 1.5s infinite alternate; 
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+Button{
+    color: black;
+    background-color: #0fa;
+    border: none;
+    border-radius: 5px;
+  
+}
